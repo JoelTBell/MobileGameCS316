@@ -1,11 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class BridgeControl : MonoBehaviour
+public class KillFloor : MonoBehaviour
 {
-    public GameObject Bridge1;
-    public GameObject Bridge2;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,8 +19,6 @@ public class BridgeControl : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        Debug.Log("i found a bridge");
-        Bridge1.SetActive(true);
-        Bridge2.SetActive(false);  
+        SceneManager.LoadScene("Level1");
     }
 }
