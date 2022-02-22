@@ -18,9 +18,6 @@ public class WIn : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        if(other.tag == "Player1")
-        {
-            
-        }
+    
     }
 }

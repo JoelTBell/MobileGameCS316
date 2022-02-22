@@ -20,8 +20,11 @@ public class TempBridgeButton : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        Debug.Log("i found a bridge");
-        Bridge1.SetActive(false);
-        Bridge2.SetActive(true);
+        if(Input.GetKeyDown(KeyCode.F))
+        {
+            Debug.Log("i found a bridge");
+            Bridge1.SetActive(true);
+            Bridge2.SetActive(false);
+        }
     }
 }
