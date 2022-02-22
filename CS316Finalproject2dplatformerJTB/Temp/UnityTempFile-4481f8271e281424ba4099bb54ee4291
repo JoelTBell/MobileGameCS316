@@ -198,7 +198,7 @@
 /reference:"C:/Users/Joel's PC/Documents/Unity/2020.3.25f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll"
 /reference:"C:/Users/Joel's PC/Documents/Unity/2020.3.25f1/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll"
 /reference:"C:/Users/Joel's PC/Documents/Unity/2020.3.25f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll"
-/reference:D:/Unity/CS316Finalproject2dplatformerJTB/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll
+/reference:D:/Unity/CS316FinalJTB/MobileGameCS316/CS316Finalproject2dplatformerJTB/Library/PackageCache/com.unity.nuget.newtonsoft-json@2.0.0/Runtime/Newtonsoft.Json.dll
 /reference:Library/ScriptAssemblies/PsdPlugin.dll
 /reference:Library/ScriptAssemblies/Unity.2D.Animation.Editor.dll
 /reference:Library/ScriptAssemblies/Unity.2D.Animation.Runtime.dll
@@ -338,4 +338,6 @@
 Assets\Scripts\BridgeControl.cs
 Assets\Scripts\GameMaster.cs
 Assets\Scripts\Movement.cs
+Assets\Scripts\Playerselect.cs
 Assets\Scripts\TempBridgeButton.cs
+Assets\Scripts\WIn.cs
