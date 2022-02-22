@@ -337,6 +337,7 @@
 /define:USE_SEARCH_ENGINE_API
 Assets\Scripts\BridgeControl.cs
 Assets\Scripts\GameMaster.cs
+Assets\Scripts\KillFloor.cs
 Assets\Scripts\Movement.cs
 Assets\Scripts\Playerselect.cs
 Assets\Scripts\TempBridgeButton.cs
