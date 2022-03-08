@@ -5,10 +5,14 @@ using UnityEngine;
 public class Playerselect : MonoBehaviour
 {
     public int characterIndex;
+
+    public GameObject [] Players;
+
+    public Camera Cma; //cma is cam
     // Start is called before the first frame update
     void Start()
     {
-        
+        Cma = Camera.main;
     }
 
    private void Update()
@@ -29,5 +33,8 @@ public class Playerselect : MonoBehaviour
                 characterIndex = 1;
             }
         }
+
+        Cma.transform.parent = Players[characterIndex].transform;
+        Cma.transform.localPosition = new Vector3(0.03f, 2.37f, -10f);
     }
 }
