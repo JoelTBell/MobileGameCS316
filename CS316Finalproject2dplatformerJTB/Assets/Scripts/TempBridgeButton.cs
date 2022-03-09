@@ -18,13 +18,18 @@ public class TempBridgeButton : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D()
+    void OnCollisionEnter2D()
     {
         if(Input.GetKeyDown(KeyCode.F))
         {
-            Debug.Log("i found a bridge");
-            Bridge1.SetActive(true);
-            Bridge2.SetActive(false);
+            BridgeButton();
         }
+    }
+
+    public void BridgeButton()
+    {
+        Debug.Log("i found a bridge");
+            Bridge1.SetActive(!Bridge1.activeSelf);
+            Bridge2.SetActive(!Bridge2.activeSelf);
     }
 }

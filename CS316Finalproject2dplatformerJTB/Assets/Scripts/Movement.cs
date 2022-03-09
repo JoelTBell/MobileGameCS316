@@ -38,7 +38,7 @@ public class Movement : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         //Get the value of the Horizontal input axis.
-        transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+        transform.Translate(new Vector3(-1, 0, 0) * moveSpeed * Time.deltaTime);
     }
 
     public void MoveRight()
@@ -48,6 +48,6 @@ public class Movement : MonoBehaviour
         float horizontalInput = Input.GetAxisRaw("Horizontal");
 
         //Get the value of the Horizontal input axis.
-        transform.Translate(new Vector3(horizontalInput, 0, 0) * moveSpeed * Time.deltaTime);
+        transform.Translate(new Vector3(1, 0, 0) * moveSpeed * Time.deltaTime);
     }
 }

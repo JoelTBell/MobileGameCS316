@@ -18,22 +18,19 @@ public class Playerselect : MonoBehaviour
    private void Update()
     {
         if(Input.GetKeyDown(KeyCode.E))
-            {
-            characterIndex++;
-            if(characterIndex > 1) //Or however many characters you want to switch between, I did 2 because I have 3 characters and start at 0
-            { 
-                characterIndex = 0;
-            }
-        }
-        else if(Input.GetKeyDown(KeyCode.Q))
-        {
-            characterIndex--;
-            if(characterIndex < 0)
-            {
-                characterIndex = 1;
-            }
-        }
+       {
+           Change();
+       }
+    }
 
+    public void Change()
+    {
+        Debug.Log("Im swapping places");
+        characterIndex++;
+        if(characterIndex > 1) //Or however many characters you want to switch between, I did 2 because I have 3 characters and start at 0
+        { 
+            characterIndex = 0;
+        }
         Cma.transform.parent = Players[characterIndex].transform;
         Cma.transform.localPosition = new Vector3(0.03f, 2.37f, -10f);
     }
