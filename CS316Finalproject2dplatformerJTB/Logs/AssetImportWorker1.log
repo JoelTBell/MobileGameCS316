@@ -145,3 +145,4 @@ Received Import Request.
 Start importing Assets/TexturesTiles/Background(1).psd using Guid(61c102d9f9b8a67449867f8fb0ce39c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b924d7543d18dbe8008163a3bbdafcd2') in 0.331928 seconds 
   Import took 0.340262 seconds .
 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
