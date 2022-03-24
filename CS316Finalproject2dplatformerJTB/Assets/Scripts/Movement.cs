@@ -21,11 +21,11 @@ public class Movement : MonoBehaviour
     {
         if(Pc.characterIndex!=characterIndex) return;
          // What Moves Us
-        if(Input.GetKeyDown(KeyCode.A))
+        if(Input.GetKey(KeyCode.A))
         {
             MoveLeft();
         }
-        else if(Input.GetKeyDown(KeyCode.D))
+        else if(Input.GetKey(KeyCode.D))
         {
             MoveRight();
         }
