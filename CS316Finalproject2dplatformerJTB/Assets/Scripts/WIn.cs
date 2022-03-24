@@ -18,6 +18,6 @@ public class WIn : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        if()
+        
     }
 }

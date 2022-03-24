@@ -1917,7 +1917,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 759786212}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffd626ac6f6e7fc4eba753807a8fdd7a, type: 3}
+  m_Script: {fileID: 11500000, guid: 952ab5f8ea86aef499ed49e57406d7cf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   Bridge1: {fileID: 317847618}
@@ -3399,6 +3399,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1880258998}
   - component: {fileID: 1880258997}
+  - component: {fileID: 1880258999}
   m_Layer: 0
   m_Name: KillerFloor
   m_TagString: Untagged
@@ -3446,6 +3447,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1880258999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1880258996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ffc5f88d0f7a6645ae4e18f43c15da0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1905158619
 GameObject:
   m_ObjectHideFlags: 0
@@ -3590,7 +3603,6 @@ GameObject:
   - component: {fileID: 2025508540}
   - component: {fileID: 2025508539}
   - component: {fileID: 2025508541}
-  - component: {fileID: 2025508542}
   - component: {fileID: 2025508543}
   m_Layer: 0
   m_Name: bridgeButton (1)
@@ -3690,20 +3702,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2025508542
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2025508538}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ffd626ac6f6e7fc4eba753807a8fdd7a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Bridge1: {fileID: 317847618}
-  Bridge2: {fileID: 619720904}
 --- !u!114 &2025508543
 MonoBehaviour:
   m_ObjectHideFlags: 0
