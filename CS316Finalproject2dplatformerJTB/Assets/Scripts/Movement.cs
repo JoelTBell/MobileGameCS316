@@ -8,12 +8,14 @@ public class Movement : MonoBehaviour
     Rigidbody2D RD2;
     public int characterIndex;
     Playerselect Pc; //Pc stands for Player choice
+    public bool Moving;
 
     // Start is called before the first frame update
     void Start()
     {
         RD2 = GetComponent<Rigidbody2D>();
         Pc = FindObjectOfType<Playerselect>();
+        Moving = false;
     }
 
     // Update is called once per frame
@@ -21,14 +23,22 @@ public class Movement : MonoBehaviour
     {
         if(Pc.characterIndex!=characterIndex) return;
          // What Moves Us
-        if(Input.GetKeyDown(KeyCode.A))
-        {
+       if (Input.GetKeyDown(KeyCode.A) || Input.GetKeyDown(KeyCode.D) )
+       {
+           Moving = true;
+       }
+
+       if(Moving == true)
+       {
+            if(Input.GetKeyDown(KeyCode.A))
+            {
             MoveLeft();
-        }
-        else if(Input.GetKeyDown(KeyCode.D))
-        {
-            MoveRight();
-        }
+            }
+            else if(Input.GetKeyDown(KeyCode.D))
+            {
+                MoveRight();
+            }
+       }
     }
 
     public void MoveLeft()
