@@ -1274,7 +1274,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &454606945
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2904,7 +2904,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1430494225
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3213,6 +3213,10 @@ MonoBehaviour:
   Players:
   - {fileID: 2054534294}
   - {fileID: 366381717}
+  Player1LB: {fileID: 1905158619}
+  Player1RB: {fileID: 107353611}
+  Player2LB: {fileID: 454606944}
+  Player2RB: {fileID: 1430494224}
   Cma: {fileID: 519420031}
 --- !u!1 &1546136028
 GameObject:
