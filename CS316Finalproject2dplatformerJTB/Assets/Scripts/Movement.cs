@@ -32,7 +32,7 @@ public class Movement : MonoBehaviour
        {
             if(Input.GetKeyDown(KeyCode.A))
             {
-            MoveLeft();
+                MoveLeft();
             }
             else if(Input.GetKeyDown(KeyCode.D))
             {
