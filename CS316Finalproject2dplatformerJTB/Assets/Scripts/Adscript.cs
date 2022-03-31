@@ -7,7 +7,7 @@ public class Adscripts : MonoBehaviour
 {
     // android: 4687099
     // apple: 4687098
-    //string gameId = "your_id";
+    string gameId = "4687099";
 
     //comment this out also uncheck the box in project settings
     bool testMode = true;
