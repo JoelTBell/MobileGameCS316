@@ -18,6 +18,14 @@ public class WIn : MonoBehaviour
 
     void OnTriggerEnter2D()
     {
-        
+        /*if(GameObject.tag == Player1 || GameObject.tag == Player2)
+        {
+            //freeze playermovement and swap to other
+        }
+
+        else(GameObject.tag == Player1 && GameObject.tag == Player2)
+        {
+            Scenemanagement.Loadscene"level 2";
+        }*/
     }
 }
