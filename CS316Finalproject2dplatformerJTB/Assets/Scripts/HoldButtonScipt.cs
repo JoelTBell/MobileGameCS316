@@ -12,17 +12,7 @@ public class HoldButtonScipt : MonoBehaviour
  
      public void onPress ()
      {
-          if(Move.Moving == true)
-          {
-               if(Player1Left || Player2Left)
-               {
-                    Move.MoveLeft;
-               }
-               else if(Player1Right || Player2Right)
-               {
-                    Move.MoveRight;
-               }
-          }
+          
      }
  
      public void onRelease ()
