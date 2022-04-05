@@ -46,6 +46,14 @@ public class Playerselect : MonoBehaviour
        }
     }
 
+    public void Test(bool isTest)//Delete when done
+    {
+        if(isTest)
+            Debug.Log("Test");
+        else
+            Debug.Log("No Test");
+    }
+
     public void Change()
     {
         Debug.Log("Im swapping places");

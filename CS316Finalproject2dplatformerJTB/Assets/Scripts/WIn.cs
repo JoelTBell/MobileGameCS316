@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WIn : MonoBehaviour
 {
@@ -16,16 +17,13 @@ public class WIn : MonoBehaviour
         
     }
 
-    void OnTriggerEnter2D()
+    void OnTriggerEnter2D(Collider2D other)
     {
-        /*if(GameObject.tag == Player1 || GameObject.tag == Player2)
+        if(other.tag == "Player1" && other.tag == "Player2")
         {
-            //freeze playermovement and swap to other
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
-
-        else(GameObject.tag == Player1 && GameObject.tag == Player2)
-        {
-            Scenemanagement.Loadscene"level 2";
-        }*/
     }
+
+    
 }
