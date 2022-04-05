@@ -19,6 +19,10 @@ public class WIn : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if(other.tag == "Player1" || other.tag == "Player2")
+        {
+            Debug.Log("i found a player");
+        }
         if(other.tag == "Player1" && other.tag == "Player2")
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);

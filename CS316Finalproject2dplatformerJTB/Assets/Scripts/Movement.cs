@@ -30,11 +30,11 @@ public class Movement : MonoBehaviour
 
        if(Moving == true)
        {
-            if(Input.GetKeyDown(KeyCode.A))
+            if(Input.GetKey(KeyCode.A))
             {
                 MoveLeft();
             }
-            else if(Input.GetKeyDown(KeyCode.D))
+            else if(Input.GetKey(KeyCode.D))
             {
                 MoveRight();
             }
