@@ -18,12 +18,10 @@ public class HoldButtonScipt : MonoBehaviour
      {
           if(Player1Left.activeSelf == true)
           {
-             P1Left = true;
-
              if(P1Left == true)
              {
                   Move.MoveLeft();
-             }   
+             }
           }
 
           if(Player1Right.activeSelf == true)
