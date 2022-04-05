@@ -206,7 +206,6 @@ GameObject:
   - component: {fileID: 107353615}
   - component: {fileID: 107353614}
   - component: {fileID: 107353613}
-  - component: {fileID: 107353616}
   m_Layer: 5
   m_Name: RightMovementButton(player1)
   m_TagString: Untagged
@@ -328,18 +327,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 107353611}
   m_CullTransparentMesh: 1
---- !u!114 &107353616
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 107353611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0402ec1691fc914f8771f0ea057c2e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &203440166
 GameObject:
   m_ObjectHideFlags: 0
@@ -942,6 +929,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   characterIndex: 1
+  Moving: 0
 --- !u!1 &404797909
 GameObject:
   m_ObjectHideFlags: 0
@@ -1281,7 +1269,6 @@ GameObject:
   - component: {fileID: 454606948}
   - component: {fileID: 454606947}
   - component: {fileID: 454606946}
-  - component: {fileID: 454606949}
   m_Layer: 5
   m_Name: LeftMoveButton(player2)
   m_TagString: Untagged
@@ -1403,18 +1390,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 454606944}
   m_CullTransparentMesh: 1
---- !u!114 &454606949
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 454606944}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0402ec1691fc914f8771f0ea057c2e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &479893234
 GameObject:
   m_ObjectHideFlags: 0
@@ -2924,7 +2899,6 @@ GameObject:
   - component: {fileID: 1430494228}
   - component: {fileID: 1430494227}
   - component: {fileID: 1430494226}
-  - component: {fileID: 1430494229}
   m_Layer: 5
   m_Name: RightMovementButton(player2)
   m_TagString: Untagged
@@ -3046,18 +3020,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1430494224}
   m_CullTransparentMesh: 1
---- !u!114 &1430494229
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1430494224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0402ec1691fc914f8771f0ea057c2e0, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &1465406064
 GameObject:
   m_ObjectHideFlags: 0
@@ -4047,9 +4009,42 @@ MonoBehaviour:
   m_GameObject: {fileID: 1905158619}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d0402ec1691fc914f8771f0ea057c2e0, type: 3}
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 2
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
+  - eventID: 3
+    callback:
+      m_PersistentCalls:
+        m_Calls:
+        - m_Target: {fileID: 0}
+          m_TargetAssemblyTypeName: 
+          m_MethodName: 
+          m_Mode: 1
+          m_Arguments:
+            m_ObjectArgument: {fileID: 0}
+            m_ObjectArgumentAssemblyTypeName: 
+            m_IntArgument: 0
+            m_FloatArgument: 0
+            m_StringArgument: 
+            m_BoolArgument: 0
+          m_CallState: 2
 --- !u!1 &2025508538
 GameObject:
   m_ObjectHideFlags: 0
@@ -4420,6 +4415,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   moveSpeed: 10
   characterIndex: 0
+  Moving: 0
 --- !u!1 &2090867519
 GameObject:
   m_ObjectHideFlags: 0
