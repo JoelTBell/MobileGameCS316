@@ -23,12 +23,21 @@ public class WIn : MonoBehaviour
         {
             Debug.Log("i found a player");
         }
+
+        if(other.tag == "Player1")
+        {
+            Debug.Log("why isnt the warp working");
+        }
+
+        if(other.tag == "Player2")
+        {
+            Debug.Log("why am i here");
+        }
         
         if(other.tag == "Player1" && other.tag == "Player2")
         {
+            Debug.Log("Both players founds");
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
     }
-
-    
 }
