@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class WIn : MonoBehaviour
 {
+    public bool P1warp = false;
+    public bool P2warp = false;
     // Start is called before the first frame update
     void Start()
     {
@@ -14,7 +16,10 @@ public class WIn : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(P1warp == true && P2warp == true)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -27,17 +32,27 @@ public class WIn : MonoBehaviour
         if(other.tag == "Player1")
         {
             Debug.Log("why isnt the warp working");
+            P1warp = true;
         }
 
         if(other.tag == "Player2")
         {
             Debug.Log("why am i here");
-        }
-        
-        if(other.tag == "Player1" && other.tag == "Player2")
-        {
-            Debug.Log("Both players founds");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            P2warp = true;
         }
     }
+
+    void OnTriggerExit2D(Collider2D other)
+    {
+         if(other.tag == "Player1")
+        {
+            P1warp = false;
+        }
+
+        if(other.tag == "Player2")
+        {
+            P2warp = false;
+        }
+    }
+
 }
