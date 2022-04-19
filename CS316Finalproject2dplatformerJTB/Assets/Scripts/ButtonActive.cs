@@ -30,25 +30,25 @@ public class ButtonActive : MonoBehaviour
 
     public void OnTriggerStay2D(Collider2D other)
     {
-        if(other.GameObject.tag == B1)
+        if(other.tag == "BB1")
         {
             BA1 = true;
             ButtonSelection();
         }
         
-         if(other.GameObject.tag == B2)
+         if(other.tag == "BB2")
         {
             BA2 = true;
             ButtonSelection();
         }
 
-         if(other.GameObject.tag == B3)
+         if(other.tag == "BB3")
         {
             BA3 = true;
             ButtonSelection();
         }
 
-         if(other.GameObject.tag == B4)
+         if(other.tag == "BB4")
         {
             BA4 = true;
             ButtonSelection();

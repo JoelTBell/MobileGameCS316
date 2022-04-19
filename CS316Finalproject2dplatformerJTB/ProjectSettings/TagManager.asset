@@ -6,10 +6,10 @@ TagManager:
   tags:
   - Player1
   - Player2
-  - B1
-  - B2
-  - B3
-  - B4
+  - BB1
+  - BB2
+  - BB3
+  - BB4
   layers:
   - Default
   - TransparentFX

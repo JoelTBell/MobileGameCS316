@@ -456,7 +456,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525446, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: m_TagString
-      value: B3
+      value: BB3
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
@@ -483,7 +483,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.0000019073486, y: -0.028308392}
@@ -560,7 +560,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525446, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: m_TagString
-      value: B4
+      value: BB4
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
@@ -587,7 +587,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.056613922, y: -0.2547735}
@@ -1498,6 +1498,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9bd3e9dee7eaab645b9985a70d5094af, type: 3}
+--- !u!1 &987327108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4045036838777257219, guid: f7ed6fac93de85c4fafaf4a37b16d14a, type: 3}
+  m_PrefabInstance: {fileID: 1144933699}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &987327109
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 987327108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bba8b59eb7a0135429a7aa622c1da2e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  B1: {fileID: 1798252822}
+  B2: {fileID: 1064453779}
+  B3: {fileID: 181651905}
+  B4: {fileID: 220376016}
+  BA1: 0
+  BA2: 0
+  BA3: 0
+  BA4: 0
 --- !u!1001 &1064453778
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1555,7 +1580,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525446, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: m_TagString
-      value: B2
+      value: BB2
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
@@ -1582,7 +1607,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: -0.22591949}
@@ -1688,7 +1713,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 4045036838777257216, guid: f7ed6fac93de85c4fafaf4a37b16d14a, type: 3}
   m_PrefabInstance: {fileID: 1144933699}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 987327108}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 64a17d070f7890b44a2aee79e42e356d, type: 3}
@@ -2077,7 +2102,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525446, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: m_TagString
-      value: B1
+      value: BB1
       objectReference: {fileID: 0}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
@@ -2115,7 +2140,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: -0.05661583, y: 0.056616127}
