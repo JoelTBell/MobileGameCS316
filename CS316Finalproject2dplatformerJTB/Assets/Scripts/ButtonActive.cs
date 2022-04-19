@@ -32,24 +32,28 @@ public class ButtonActive : MonoBehaviour
     {
         if(other.tag == "BB1")
         {
+            Debug.Log("I've found a button");
             BA1 = true;
             ButtonSelection();
         }
         
          if(other.tag == "BB2")
         {
+            Debug.Log("I've found a button");
             BA2 = true;
             ButtonSelection();
         }
 
          if(other.tag == "BB3")
         {
+            Debug.Log("I've found a button");
             BA3 = true;
             ButtonSelection();
         }
 
          if(other.tag == "BB4")
         {
+            Debug.Log("I've found a button");
             BA4 = true;
             ButtonSelection();
         }
@@ -64,6 +68,9 @@ public class ButtonActive : MonoBehaviour
             BA4 = false;
 
             B1.SetActive(true);
+            B2.SetActive(false);
+            B3.SetActive(false);
+            B4.SetActive(false);
         }
 
          if(BA2 == true)
@@ -73,6 +80,9 @@ public class ButtonActive : MonoBehaviour
             BA4 = false;
 
             B2.SetActive(true);
+            B1.SetActive(false);
+            B3.SetActive(false);
+            B4.SetActive(false);
         }
 
          if(BA3 == true)
@@ -82,6 +92,9 @@ public class ButtonActive : MonoBehaviour
             BA4 = false;
 
             B3.SetActive(true);
+            B1.SetActive(false);
+            B2.SetActive(false);
+            B4.SetActive(false);
         }
 
          if(BA4 == true)
@@ -91,6 +104,9 @@ public class ButtonActive : MonoBehaviour
             BA3 = false;
 
             B4.SetActive(true);
+            B1.SetActive(false);
+            B2.SetActive(false);
+            B3.SetActive(false);
         }
     }
 }
