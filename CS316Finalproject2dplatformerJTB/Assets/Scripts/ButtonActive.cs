@@ -26,11 +26,6 @@ public class ButtonActive : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        B1.SetActive(false);
-        B2.SetActive(false);
-        B3.SetActive(false);
-        B4.SetActive(false);
-
         EB1.SetActive(false);
         EB2.SetActive(false);
         EB3.SetActive(false);
@@ -45,25 +40,25 @@ public class ButtonActive : MonoBehaviour
 
     public void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.tag == "BB1")
+        if(other.tag =="Player1")
         {
             Debug.Log("I've found a button");
             BA1 = true;
         }
         
-         if(other.tag == "BB2")
+         if(other.tag == "Player1")
         {
             Debug.Log("I've found a button");
             BA2 = true;
         }
 
-         if(other.tag == "BB3")
+         if(other.tag == "Player2")
         {
             Debug.Log("I've found a button");
             BA3 = true;
         }
 
-         if(other.tag == "BB4")
+         if(other.tag == "Player2")
         {
             Debug.Log("I've found a button");
             BA4 = true;
@@ -105,11 +100,6 @@ public class ButtonActive : MonoBehaviour
             BA3 = false;
             BA4 = false;
 
-            B1.SetActive(true);
-            B2.SetActive(false);
-            B3.SetActive(false);
-            B4.SetActive(false);
-
             EB1.SetActive(true);
             EB2.SetActive(false);
             EB3.SetActive(false);
@@ -121,11 +111,6 @@ public class ButtonActive : MonoBehaviour
             BA1 = false;
             BA3 = false;
             BA4 = false;
-
-            B2.SetActive(true);
-            B1.SetActive(false);
-            B3.SetActive(false);
-            B4.SetActive(false);
 
             EB1.SetActive(false);
             EB2.SetActive(true);
@@ -139,11 +124,6 @@ public class ButtonActive : MonoBehaviour
             BA2 = false;
             BA4 = false;
 
-            B3.SetActive(true);
-            B1.SetActive(false);
-            B2.SetActive(false);
-            B4.SetActive(false);
-
             EB1.SetActive(false);
             EB2.SetActive(false);
             EB3.SetActive(true);
@@ -155,11 +135,6 @@ public class ButtonActive : MonoBehaviour
             BA1 = false;
             BA2 = false;
             BA3 = false;
-
-            B4.SetActive(true);
-            B1.SetActive(false);
-            B2.SetActive(false);
-            B3.SetActive(false);
 
             EB1.SetActive(false);
             EB2.SetActive(false);
