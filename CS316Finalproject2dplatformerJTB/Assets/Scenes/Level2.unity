@@ -474,7 +474,7 @@ PrefabInstance:
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
       value: 
-      objectReference: {fileID: 1987945047}
+      objectReference: {fileID: 2109228570}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge2
       value: 
@@ -574,7 +574,7 @@ PrefabInstance:
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
       value: 
-      objectReference: {fileID: 1987945047}
+      objectReference: {fileID: 1602170938}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge2
       value: 
@@ -1991,11 +1991,11 @@ PrefabInstance:
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
       value: 
-      objectReference: {fileID: 158213357}
+      objectReference: {fileID: 1987945047}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge2
       value: 
-      objectReference: {fileID: 1602170938}
+      objectReference: {fileID: 78089616}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
 --- !u!1 &1064453779 stripped
@@ -2895,7 +2895,7 @@ PrefabInstance:
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge2
       value: 
-      objectReference: {fileID: 78089616}
+      objectReference: {fileID: 1987945047}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
 --- !u!1 &1798252822 stripped
