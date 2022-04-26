@@ -48,7 +48,7 @@ public class ButtonActive : MonoBehaviour
         
          if(other.tag == "Player1")
         {
-            Debug.Log("I've found a button");
+            Debug.Log("I've found the second button");
             BA2 = true;
         }
 
@@ -60,7 +60,7 @@ public class ButtonActive : MonoBehaviour
 
          if(other.tag == "Player2")
         {
-            Debug.Log("I've found a button");
+            Debug.Log("I've found the first button");
             BA4 = true;
         }
     }
@@ -148,5 +148,10 @@ public class ButtonActive : MonoBehaviour
         EB2.SetActive(false);
         EB3.SetActive(false);
         EB4.SetActive(false);
+
+        BA1 = false;
+        BA2 = false;
+        BA3 = false;
+        BA4 = false;
     }
 }
