@@ -75,7 +75,7 @@ public class ButtonActive : MonoBehaviour
         
          if(BA2 == true)
         {
-            Debug.Log("I've found a button");
+            Debug.Log("I've found the second button");
             ButtonSelection();
         }
 
@@ -87,7 +87,7 @@ public class ButtonActive : MonoBehaviour
 
          if(BA4 == true)
         {
-            Debug.Log("I've found a button");
+            Debug.Log("I've found the second button");
             ButtonSelection();
         }
     }

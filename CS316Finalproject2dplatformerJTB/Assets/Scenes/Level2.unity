@@ -474,11 +474,11 @@ PrefabInstance:
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge1
       value: 
-      objectReference: {fileID: 2109228570}
+      objectReference: {fileID: 1938512409}
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge2
       value: 
-      objectReference: {fileID: 1938512409}
+      objectReference: {fileID: 1602170938}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
 --- !u!1 &181651905 stripped
@@ -1995,7 +1995,7 @@ PrefabInstance:
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge2
       value: 
-      objectReference: {fileID: 78089616}
+      objectReference: {fileID: 158213357}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
 --- !u!1 &1064453779 stripped
@@ -2378,7 +2378,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1439123199}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 14.22, y: 0.52, z: 0}
+  m_LocalPosition: {x: 15.08, y: 0.52, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1406630657}
@@ -2895,7 +2895,7 @@ PrefabInstance:
     - target: {fileID: 3838984593515525450, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
       propertyPath: Bridge2
       value: 
-      objectReference: {fileID: 1987945047}
+      objectReference: {fileID: 78089616}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 90559ecf4d31c384bb9cc75be4cab263, type: 3}
 --- !u!1 &1798252822 stripped
