@@ -43,25 +43,37 @@ public class ButtonActive : MonoBehaviour
         if(other.tag =="Player1")
         {
             Debug.Log("I've found a button");
-            BA1 = true;
+            if(other.tag == "BB1")
+            {
+                BA1 = true;
+            }
         }
         
-         if(other.tag == "Player1")
+        if(other.tag == "Player1")
         {
             Debug.Log("I've found the second button");
-            BA2 = true;
+            if(other.tag == "BB2")
+            {
+                BA2 = true;
+            }
         }
 
-         if(other.tag == "Player2")
+        if(other.tag == "Player2")
         {
             Debug.Log("I've found a button");
-            BA3 = true;
+             if(other.tag == "BB3")
+            {
+                BA3 = true;
+            }
         }
 
-         if(other.tag == "Player2")
+        if(other.tag == "Player2")
         {
             Debug.Log("I've found the first button");
-            BA4 = true;
+            if(other.tag == "BB4")
+            {
+                BA4 = true;
+            }
         }
     }
 
