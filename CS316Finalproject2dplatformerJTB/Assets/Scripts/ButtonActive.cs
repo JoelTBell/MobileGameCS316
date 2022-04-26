@@ -38,27 +38,27 @@ public class ButtonActive : MonoBehaviour
         
     }
 
-    public void OnCollisionEnter2D(Collision2D collision)
+    public void OnTriggerEnter2D(Collider2D other)
     {
-        if(collision.GameObject.tag =="BB1")
+        if(other.tag =="Player1")
         {
             Debug.Log("I've found a button");
             BA1 = true;
         }
         
-        if(collision.GameObject.tag == "BB2")
+         if(other.tag == "Player1")
         {
             Debug.Log("I've found the second button");
             BA2 = true;
         }
 
-        if(collision.GameObject.tag == "BB3")
+         if(other.tag == "Player2")
         {
             Debug.Log("I've found a button");
             BA3 = true;
         }
 
-        if(collision.GameObject.tag == "BB4")
+         if(other.tag == "Player2")
         {
             Debug.Log("I've found the first button");
             BA4 = true;
