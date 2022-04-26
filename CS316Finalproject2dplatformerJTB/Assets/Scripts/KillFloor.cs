@@ -19,6 +19,6 @@ public class KillFloor : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
-        SceneManager.LoadScene("Level1");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 }
