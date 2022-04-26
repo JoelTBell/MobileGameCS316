@@ -144,6 +144,9 @@ public class ButtonActive : MonoBehaviour
     }
     public void OnTriggerExit2D(Collider2D other)
     {
-
+        EB1.SetActive(false);
+        EB2.SetActive(false);
+        EB3.SetActive(false);
+        EB4.SetActive(false);
     }
 }
